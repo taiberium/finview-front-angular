@@ -72,10 +72,11 @@
               "browserTarget": "finview-front-angular:build:production"
             },
             "development": {
-              "browserTarget": "finview-front-angular:build:development"
+              "browserTarget": "finview-front-angular:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
